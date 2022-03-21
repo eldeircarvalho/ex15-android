@@ -2,10 +2,10 @@
 @font-face {
     font-family:'idroid';
     src: url('idroid.otf') format(opentype);
+    font-family: 'bebas neue';
+    src: url('BebasNeue-Regular.ttf') format(opentype);
     font-weight: normal;
     font-style: normal;
-    font-family: 'bebas neue';
-    src: url('BebasNeue-Regular.ttf') format(truetype);
 }
 :root{
     --cor0: #c5ebd6;
@@ -63,12 +63,10 @@ nav>p>a:hover{
     transition-duration: 0.5s;
 }
 main{
-    min-width: 400px;
+    min-width: 350px;
     max-width: 800px;
     margin: auto;
     background-color: white;
-     /* margin-left: 250px;
-    margin-right: 250px;*/
     padding: 7px 15px 3px 15px;
     text-align: justify;
     font-family: var(--fonte1);
