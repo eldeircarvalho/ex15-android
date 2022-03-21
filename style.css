@@ -3,7 +3,7 @@
     font-family:'idroid';
     src: url('idroid.otf') format(opentype);
     font-family: 'bebas neue';
-    src: url('BebasNeue-Regular.ttf') format(opentype);
+    src: url('BebasNeue-Regular.ttf') format(truetype);
     font-weight: normal;
     font-style: normal;
 }
@@ -14,9 +14,9 @@
     --cor3: #2fa866;
     --cor4: #1a5c37;
     --cor5: #063d1e;
-    --fonte0: arial, helvetica, sans-serif;
-    --fonte1: 'bebas neue', cursive;
-    --fonte2: 'idroid', sans-serif ;
+    --fonte0: 'bebas neue', cursive;
+    --fonte1:  arial, helvetica, sans-serif;
+    --fonte2: 'idroid', sans-serif;
 }
 
 body{
